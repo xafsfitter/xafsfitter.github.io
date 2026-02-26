@@ -2,7 +2,7 @@
 
 Source for the XAFS Fitter documentation site, built with [Docusaurus](https://docusaurus.io/).
 
-Covers the GUI (v1.2.1) and CLI (v1.0.1) tools for fitting EXAFS data using FEFF scattering paths.
+Covers the GUI (v1.2.2) and CLI (v1.0.2) tools for fitting EXAFS data using FEFF scattering paths.
 
 ## Local Development
 
