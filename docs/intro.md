@@ -25,7 +25,7 @@ XAFS Fitter uses these two inputs to generate FEFF scattering paths and perform 
 | Tool | Best For |
 |------|----------|
 | **GUI (v1.2.2)** | Interactive fitting, visual inspection of results, parameter exploration |
-| **CLI (v1.0.1)** | Batch processing, parallel optimization, scripted workflows |
+| **CLI (v1.0.2)** | Batch processing, parallel optimization, scripted workflows |
 
 Configurations are **fully interchangeable** between the two tools. A fit designed in the GUI can be exported and run in the CLI, and vice versa.
 
