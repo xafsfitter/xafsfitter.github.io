@@ -72,8 +72,8 @@ const config: Config = {
           items: [
             {label: 'Installation', to: '/docs/getting-started/installation'},
             {label: 'Quick Start', to: '/docs/getting-started/quick-start'},
-            {label: 'GUI Guide', to: '/docs/gui/overview'},
-            {label: 'CLI Guide', to: '/docs/cli/overview'},
+            {label: 'GUI Guide', to: '/docs/gui/gui-overview'},
+            {label: 'CLI Guide', to: '/docs/cli/cli-overview'},
           ],
         },
         {

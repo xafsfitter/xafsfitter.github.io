@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # UO₂ Tutorial — CLI
 
-This tutorial performs the same UO₂ fit as the [GUI tutorial](./uo2-gui-tutorial), but entirely from the command line.
+This tutorial demonstrates a complete UO₂ fit entirely from the command line.
 
 ## Prerequisites
 

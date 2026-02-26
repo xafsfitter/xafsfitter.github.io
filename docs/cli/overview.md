@@ -12,7 +12,7 @@ The CLI is the right tool when you:
 - Need to run multiple parallel optimizations to explore the parameter space
 - Want to script and automate your fitting workflow
 
-For interactive exploration, visual feedback, and initial model building, use the [GUI](../gui/overview) instead.
+For interactive exploration, visual feedback, and initial model building, use the [GUI](../gui/gui-overview) instead.
 
 ## Activating the Virtual Environment
 

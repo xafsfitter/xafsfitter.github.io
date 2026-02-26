@@ -35,4 +35,4 @@ Configurations are **fully interchangeable** between the two tools. A fit design
 
 - [Installation](docs/getting-started/installation) — install the GUI or CLI in minutes
 - [Quick Start](docs/getting-started/quick-start) — go from a `.prj` file to your first fit in 5 minutes
-- [Background & Concepts](docs/concepts/xafs-overview) — understand what XAFS Fitter is doing under the hood
+- [Troubleshooting](docs/reference/troubleshooting) — common issues and solutions

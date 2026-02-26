@@ -38,7 +38,7 @@ Use this to manually pick an earlier run as the seed, rather than always using t
 
 Saves the selected run's configuration (including the best-fit parameter values as initial values) to a JSON file. This file is **directly usable** with `python -m xafs_cli run --config`.
 
-This is the primary mechanism for the [GUI → CLI interoperability workflow](../tutorials/gui-cli-interop).
+This is the primary mechanism for the [GUI → CLI interoperability workflow](../reference/gui-cli-interop).
 
 ### Export to Larix
 
