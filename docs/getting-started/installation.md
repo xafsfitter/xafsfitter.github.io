@@ -28,6 +28,10 @@ XAFS Fitter installs its own Python environment automatically — you do not nee
 
 ![update.bat product selection menu](/img/tutorials/update_2_tui.png)
 
+Once complete, launch the GUI with **`run_gui.bat`**. All dependency checks will pass before the application opens:
+
+![Dependency check output — all 15/15 required packages pass if (--target all)](/img/tutorials/gui_startup_dep_check.png)
+
 ### CLI
 
 1. Run **`setup.bat`** as above (if not already done).
@@ -71,9 +75,28 @@ python -m xafs_cli --help
 | Install dependencies | Installs all required packages (numpy, scipy, larch, matplotlib, etc.) |
 | Verify installation | Runs a quick import check to confirm everything is working |
 
-When setup completes successfully, you will see all checks pass before the application launches:
+## Verifying Your Installation (Most likely do not need to do)
 
-![Dependency check output — all 15/15 required packages pass](/img/tutorials/startup_dependency_check.png)
+You can manually verify that all dependencies are installed correctly by running `test_dependencies.py` from an activated virtual environment:
+
+```cmd
+.\.venv\Scripts\activate.bat
+python test_dependencies.py --target all
+```
+
+The `--target` flag lets you check only what you need:
+
+| Flag | What it tests |
+|------|--------------|
+| `--target all` | All GUI + CLI dependencies (default) |
+| `--target gui` | GUI-specific dependencies only |
+| `--target cli` | CLI-specific dependencies only |
+
+A passing run looks like this with the ```--target all``` flag:
+
+![Dependency check output — all required packages pass](/img/tutorials/startup_dependency_check.png)
+
+If any required packages fail, re-run `setup.bat` and then `update.bat` to repair the environment.
 
 ## Troubleshooting
 
