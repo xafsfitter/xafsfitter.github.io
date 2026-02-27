@@ -40,6 +40,27 @@ Alternatively, activate the virtual environment manually and invoke the CLI modu
 python -m xafs_cli --help
 ```
 
+## File tree
+
+After running the scripts, your folder should look like this:
+
+![Folder](/img/tutorials/folder_tree.png)
+
+:::info
+The scripts are run in this order:
+
+1. **`setup.bat`** — sets up the Python environment (run once)
+2. **`update.bat`** — installs the GUI, CLI, or both (run to install or update)
+3. **`run_gui.bat`** — launches the GUI (run each time you want to open it)
+
+For the CLI, skip `run_gui.bat` and activate the environment directly:
+
+```cmd
+.\.venv\Scripts\activate.bat
+python -m xafs_cli --help
+```
+
+:::
 
 ## What the Setup Scripts Do
 
@@ -47,12 +68,12 @@ python -m xafs_cli --help
 |------|--------|
 | Check for `uv` | Downloads and installs `uv` if not found |
 | Create `.venv` | Creates a Python 3.11 virtual environment in the project directory |
-| Install dependencies | Installs all 184 required packages (numpy, scipy, larch, matplotlib, etc.) |
+| Install dependencies | Installs all required packages (numpy, scipy, larch, matplotlib, etc.) |
 | Verify installation | Runs a quick import check to confirm everything is working |
 
 When setup completes successfully, you will see all checks pass before the application launches:
 
-![Dependency check output — all 14/14 required packages pass](/img/tutorials/startup_dependency_check.png)
+![Dependency check output — all 15/15 required packages pass](/img/tutorials/startup_dependency_check.png)
 
 ## Troubleshooting
 
